@@ -1,11 +1,16 @@
 import React from 'react';
 import Job from '../Job/Job';
 
-const Jobs = ({job}) => {
+const Jobs = ({data}) => {
+    console.log(data)
     return (
-        <div className='max-w-[1200px] grid md:grid-cols-2'>
-            <Job key={job.id} job={job}></Job>
-        </div>
+      
+    <div className='grid md:grid-cols-2 max-w-[1200px]'>
+         {
+            data.map(job=><Job key={job.id} job={job}></Job>)
+         }
+    </div>
+       
     );
 };
 

@@ -4,10 +4,10 @@ const Job = ({job}) => {
     const {company_logo,company_name,id,job_title,location,salary} = job;
     console.log(job)
     return (
-        <div>
-              <div className="flex justify-between items-center  border-2 border-b-gray-500 m-5 w-[500px]">
-            <img className="w-[230px]" src={company_logo} alt="" />
-            <div>
+      
+              <div className="flex-1 items-center md:flex justify-between m-4  border-2 border-b-gray-500  ">
+            <img className="w-[30%] text-center m-auto" src={company_logo} alt="" />
+            <div className="text-center">
             <h1>{job_title}</h1>
             <h1>{company_name}</h1>
          
@@ -17,7 +17,7 @@ const Job = ({job}) => {
             </div>
 
             </div>
-        </div>
+      
     );
 };
 

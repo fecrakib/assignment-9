@@ -9,15 +9,16 @@ const Home = () => {
     const data  = useLoaderData();
   
     return (
-        <div className=" m-auto:">
+        <div className=" m-auto max-w-[1200px]">
        
          <Baner></Baner>
          <Cart></Cart>
-         {
+         {/* {
             
                  data.map(job=><Jobs key={job.id} job={job}></Jobs>)
 
-         }
+         } */}
+         <Jobs key={1} data={data}></Jobs>
      
     
         </div>
