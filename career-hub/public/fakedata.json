@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "job_title": "Software Engineer",
+      "company_name": "Tech Solutions Inc.",
+      "location": "San Francisco, CA",
+      "salary": "$100,000 - $120,000",
+      "company_logo": "https://cdn-icons-png.flaticon.com/512/731/731985.png"
+    },
+    {
+      "id": 2,
+      "job_title": "Data Scientist",
+      "company_name": "Data Analytics Co.",
+      "location": "New York, NY",
+      "salary": "$90,000 - $110,000",
+      "company_logo": "https://cdn-icons-png.flaticon.com/512/3940/3940056.png"
+    },
+    {
+      "id": 3,
+      "job_title": "UX/UI Designer",
+      "company_name": "Creative Design Studio",
+      "location": "Los Angeles, CA",
+      "salary": "$80,000 - $100,000",
+      "company_logo": "https://cdn-icons-png.flaticon.com/512/3273/3273078.pngz"
+    },
+    {
+      "id": 4,
+      "job_title": "Marketing Manager",
+      "company_name": "Global Marketing Agency",
+      "location": "London, UK",
+      "salary": "£60,000 - £80,000",
+      "company_logo": "https://cdn-icons-png.flaticon.com/512/882/882747.png"
+    },
+    {
+        "id": 5,
+        "job_title": "Software Engineer",
+        "company_name": "Tech Solutions Inc.",
+        "location": "San Francisco, CA",
+        "salary": "$100,000 - $120,000",
+        "company_logo": "https://cdn-icons-png.flaticon.com/512/731/731985.png"
+      },
+      {
+        "id": 6,
+        "job_title": "Data Scientist",
+        "company_name": "Data Analytics Co.",
+        "location": "New York, NY",
+        "salary": "$90,000 - $110,000",
+        "company_logo": "https://cdn-icons-png.flaticon.com/512/5968/5968764.png"
+      },
+      {
+        "id": 7,
+        "job_title": "UX/UI Designer",
+        "company_name": "Creative Design Studio",
+        "location": "Los Angeles, CA",
+        "salary": "$80,000 - $100,000",
+        "company_logo": "https://cdn-icons-png.flaticon.com/512/3940/3940056.png"
+      },
+      {
+        "id": 8,
+        "job_title": "Marketing Manager",
+        "company_name": "Global Marketing Agency",
+        "location": "London, UK",
+        "salary": "£60,000 - £80,000",
+        "company_logo": "https://cdn-icons-png.flaticon.com/512/8275/8275611.png"
+      }
+  ]
+  
