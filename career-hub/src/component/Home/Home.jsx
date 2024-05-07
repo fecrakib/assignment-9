@@ -13,11 +13,7 @@ const Home = () => {
        
          <Baner></Baner>
          <Cart></Cart>
-         {/* {
-            
-                 data.map(job=><Jobs key={job.id} job={job}></Jobs>)
-
-         } */}
+         
          <Jobs key={1} data={data}></Jobs>
      
     

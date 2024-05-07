@@ -2,9 +2,9 @@ import React from 'react';
 import './Footer.css'
 const Footer = () => {
     return (
-      <div className='contain '>
+ <div className='contain max-w-[1200px] mx-auto   footer '>
           <section className='p-5 '>
-            <footer class="footer max-w-[1200px]  sm: grid grid-cols-2 md:flex justify-between">
+<footer class="sm: grid grid-cols-2 md:flex justify-between">
     <div class="footer-section py-2">
         <h3>Company Info</h3>
         <ul>

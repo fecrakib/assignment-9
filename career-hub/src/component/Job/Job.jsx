@@ -13,6 +13,7 @@ const Job = ({job}) => {
          
             <h1>{location}</h1>
             <h1>{salary}</h1>
+            <button className="bg-blue-500 hover:bg-blue-700 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline my-4">Show Details</button>
 
             </div>
 
