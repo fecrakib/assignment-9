@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@canvasjs/react-charts": "^1.0.2",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "react-router-dom": "^6.23.0",
