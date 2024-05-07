@@ -2,7 +2,7 @@ import React from 'react';
 
 const AppliedJob = () => {
     return (
-        <div>
+        <div className='max-w-[1200px] mx-auto'>
                 <h1>applied job section </h1>
         </div>
     );

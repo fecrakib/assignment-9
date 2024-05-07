@@ -2,7 +2,7 @@ import React from 'react';
 
 const Baner = () => {
     return (
-        <div className='flex p-5'>
+        <div className='flex p-5 max-w-[1200px] mx-auto'>
       <div>
         <p>One Step <br />
 Closer To Your <br />

@@ -2,8 +2,9 @@ import React from 'react';
 import './Footer.css'
 const Footer = () => {
     return (
-        <div className='p-5'>
-            <footer class="footer">
+      <div className='contain '>
+          <section className='p-5 '>
+            <footer class="footer max-w-[1200px] mx-auto">
     <div class="footer-section">
         <h3>Company Info</h3>
         <ul>
@@ -38,7 +39,8 @@ const Footer = () => {
     </div>
 </footer>
 
-        </div>
+        </section>
+      </div>
     );
 };
 

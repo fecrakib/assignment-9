@@ -9,11 +9,12 @@ import Home from './component/Home/Home';
 import Statistics from './component/Statistics/Statistics';
 import AppliedJob from './component/AppliedJob/AppliedJob';
 import Blog from './component/Blog/Blog';
+import  Root from './component/Root/Root';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home></Home>,
+    element: <Root></Root>,
     children:[
       {
         path:"/statistic",
@@ -26,6 +27,11 @@ const router = createBrowserRouter([
       {
         path:"/blog",
         element:<Blog></Blog>
+      },
+      {
+        path:"home",
+        element:<Home></Home>,
+        loader:()=>fetch('../public/fakedata.json')
       }
     ]
   },

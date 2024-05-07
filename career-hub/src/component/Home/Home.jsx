@@ -1,18 +1,25 @@
+import { useLoaderData } from "react-router-dom";
 import Baner from "../Baner/Baner";
-import Beaner from "../Baner/Baner";
-import Cart from "../Cart/Cart";
-import Footer from "../Footer/Footer";
-import Header from "../Header/Header";
 
-import {Outlet} from "react-router-dom"
+import Cart from "../Cart/Cart";
+
+import Jobs from "../Jobs/Jobs";
+
 const Home = () => {
+    const data  = useLoaderData();
+  
     return (
         <div className=" m-auto:">
-         <Header></Header>
+       
          <Baner></Baner>
          <Cart></Cart>
-       <Footer></Footer>
-         <Outlet></Outlet>
+         {
+            
+                 data.map(job=><Jobs key={job.id} job={job}></Jobs>)
+
+         }
+     
+    
         </div>
     );
 };
